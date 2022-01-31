@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="assesment.UserLogOut">
+        <methods>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- assesment.UserLogOut -->
+      <class name="assesment.DeleteUser">
+        <methods>
+          <include name="DeleteSelectedUser"/>
+        </methods>
+      </class> <!-- assesment.DeleteUser -->
+      <class name="assesment.SearchUser">
+        <methods>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- assesment.SearchUser -->
+      <class name="assesment.SearchDeletedUser">
+        <methods>
+          <include name="SearchDeleted"/>
+        </methods>
+      </class> <!-- assesment.SearchDeletedUser -->
+      <class name="assesment.SetUp">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- assesment.SetUp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
